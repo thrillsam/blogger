@@ -3,6 +3,9 @@ lock '3.1.0'
 
 set :application, 'blogger'
 set :repo_url, 'git@github.com:mohanramkumar/blogger.git'
+set :rvm_ruby_version, '2.2.1'
+set :pty, true
+set :user, 'root'
 
 set :deploy_to, '/var/www/apps/blogger'
 
