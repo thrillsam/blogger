@@ -2,9 +2,9 @@
 lock '3.1.0'
 
 set :application, 'blogger'
-set :repo_url, 'git@github.com:excid3/myapp.git'
+set :repo_url, 'git@github.com:mohanramkumar/blogger.git'
 
-set :deploy_to, '/home/deploy/myapp'
+set :deploy_to, '/home/deploy/blogger'
 
 set :linked_files, %w{config/database.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
