@@ -3,23 +3,17 @@
 default: &default
   adapter: postgresql
   encoding: utf8
+  database: blogger
+  host: localhost
+  username: postgres
+  password: 
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
 
 development:
   <<: *default
-  database: blogger
-  username: mohan
-  password: mohan123
 test:
   <<: *default
-  database: blogger
-  username: mohan
-  password: mohan123
 production:
-  <<: *default
-  database: blogger
-  username: mohan
-  password: mohan123
- 
+  <<: *default 
